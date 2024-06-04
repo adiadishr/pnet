@@ -1,6 +1,6 @@
 nav {
-    /* box-shadow: 0px -10px 50px -7px #ffffff; */
-    @apply absolute top-0 w-full flex h-[60px] px-[5%] items-center justify-between font-manrope text-white
+    box-shadow: 0px -10px 50px -7px #ffffff;
+    @apply fixed top-0 w-full flex h-[60px] px-[5%] items-center justify-between font-manrope text-black bg-white/85 backdrop-blur-xl z-50 border-b
 }
 
 .ctaBtn {
