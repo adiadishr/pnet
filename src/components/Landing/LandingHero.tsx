@@ -7,7 +7,7 @@ const LandingHero = () => {
             <div className="mt-[60px] min-h-[calc(100vh-60px)] flex md:flex-row flex-col md:justify-start justify-center md:items-center px-[5%] text-white">
                 <div className="flex flex-col gap-6 md:w-1/2">
                     <h1 className="font-bold uppercase text-5xl/snug font-poppins">
-                        Your Vision, Our Expertise
+                        Your Vision,<br /> <span className='text-primary brightness-150'>Our Expertise</span>
                     </h1>
                     <div className='flex flex-col gap-4 divide-y text-lg/loose font-manrope'>
                         <p className='w-2/3'>
