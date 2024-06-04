@@ -1,0 +1,4 @@
+#landingHeroBackdrop {
+    background: url(../../assets/landingHeroBackdrop.png);
+    @apply bg-center bg-cover brightness-50
+}
