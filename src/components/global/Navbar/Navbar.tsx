@@ -4,7 +4,7 @@ import { BsArrowRightCircle } from "react-icons/bs";
 
 const Navbar = () => {
     return (
-        <nav data-aos='fade-down' className="">
+        <nav data-aos='fade-down' data-aos-duration='700' className="">
             <img src={logo} className='flex h-[60px]' alt="" />
             <ul className="hidden gap-8 md:flex">
                 <li className='font-bold'>Home</li>
