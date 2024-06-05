@@ -1,4 +1,5 @@
 import handshake from '../../assets/handshake.png'
+import { Link } from 'react-router-dom'
 
 const LandingPortfolio = () => {
     return (
@@ -18,9 +19,9 @@ const LandingPortfolio = () => {
                     </p>
                 </div>
                 <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='300' className='flex gap-4'>
-                    <a href='#serviceAnchor' className='portfolioBtn'>
+                    <Link to='/Completed' className='portfolioBtn'>
                         Find out more
-                    </a>
+                    </Link>
                     <a href='#serviceAnchor' className='portfolioBtn'>
                         Get in touch
                     </a>

@@ -1,5 +1,5 @@
 import './index.css'
-import services from '../../data/data'
+import { services } from '../../data/data'
 
 const LandingServices = () => {
     return (
@@ -14,9 +14,9 @@ const LandingServices = () => {
                         <div className='w-full overflow-hidden group'>
                             <img src={service.url} alt={service.alt} className='flex w-full duration-500 group-hover:scale-110' /></div>
                         <h3 className='flex justify-center w-full py-4 mt-4 text-xl font-semibold font-poppins px-[7.5%] text-center'>{service.title}</h3>
-                        <ul className='text-base font-manrope px-[7.5%] list-disc pb-8 list-inside'>
+                        <ul className='text-base font-manrope px-[7.5%] text-center divide-y pb-8'>
                             {service.list.map((item) => (
-                                <li key={item}>{item}</li>
+                                <li className='py-2' key={item}>{item}</li>
                             ))}
                         </ul>
                     </div>

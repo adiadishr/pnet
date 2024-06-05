@@ -1,3 +1,4 @@
+// Service Images
 import serviceCard1 from '../assets/services/1.png'
 import serviceCard2 from '../assets/services/2.png'
 import serviceCard3 from '../assets/services/3.png'
@@ -5,7 +6,7 @@ import serviceCard4 from '../assets/services/4.png'
 import serviceCard5 from '../assets/services/5.png'
 import serviceCard6 from '../assets/services/6.png'
 
-const services = [
+export const services = [
     {
         title: 'Energy Sector',
         alt: 'Description of Service 1',
@@ -50,4 +51,50 @@ const services = [
     },
 ];
 
-export default services;
+export const galleryImages = [
+    {
+        "url": "https://source.unsplash.com/ztpUS4N1xhY"
+    },
+    {
+        "url": "https://source.unsplash.com/mPFSPqZOO7s"
+    },
+    {
+        "url": "https://source.unsplash.com/uPEnxrdSKIw"
+    },
+    {
+        "url": "https://source.unsplash.com/hFKZ5-OT9Ys"
+    },
+    {
+        "url": "https://source.unsplash.com/xoTt2fjs7d0"
+    },
+    {
+        "url": "https://source.unsplash.com/Vc2dD4l57og"
+    },
+    {
+        "url": "https://source.unsplash.com/hqnQWmIt3cY"
+    },
+    {
+        "url": "https://source.unsplash.com/NTGg2rtWDwg"
+    },
+    {
+        "url": "https://source.unsplash.com/uyX3qAQhZVA"
+    },
+    {
+        "url": "https://source.unsplash.com/LV-NvIcA-Gg"
+    },
+    {
+        "url": "https://source.unsplash.com/0qnRfgnZIsI"
+    },
+    {
+        "url": "https://source.unsplash.com/mpwF3Mv2UaU"
+    },
+    {
+        "url": "https://source.unsplash.com/gfMWhkDCwYM"
+    },
+    {
+        "url": "https://source.unsplash.com/8KtqjrskUg8"
+    },
+    {
+        "url": "https://source.unsplash.com/qAaGXj-AOv4"
+    }
+];

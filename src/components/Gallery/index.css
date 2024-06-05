@@ -1,0 +1,3 @@
+#gallery img {
+    @apply rounded-xl shadow-xl
+}
