@@ -6,7 +6,7 @@ const LandingHero = () => {
             <div id="landingHeroBackdrop" className="absolute top-[60px] z-[-10] flex w-full min-h-[calc(100vh-60px)]"></div>
             <div className="mt-[60px] min-h-[calc(100vh-60px)] flex md:flex-row flex-col md:justify-start justify-center md:items-center px-[5%] text-white">
                 <div className="flex flex-col gap-6 md:w-1/2">
-                    <h1 data-aos-delay='100' data-aos-duration='700' data-aos='fade-right' className="font-bold uppercase text-5xl/snug font-poppins">
+                    <h1 data-aos-delay='100' data-aos-duration='700' data-aos='fade-right' className="">
                         Your Vision,<br /> <span className='text-primary brightness-150'>Our Expertise</span>
                     </h1>
                     <div data-aos-delay='200' data-aos-duration='700' data-aos='fade-right' className='flex flex-col gap-4 divide-y text-lg/loose font-manrope'>

@@ -7,11 +7,11 @@ const Footer = () => {
     return (
         <div className="flex flex-col w-full px-[5%]">
             <div className='flex justify-between w-full border-t-2 border-b-2 pb-12'>
-                <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='300' className='flex flex-col gap-4 pt-12'>
+                <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='100' className='flex flex-col gap-4 pt-12'>
                     <img className='flex h-[60px] w-max' src={logo} alt="" />
                     {/* <h5 className='text-primary '>Professional Network <br /> of Engineering Services</h5> */}
                 </div>
-                <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='500' className='flex gap-24'>
+                <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='200' className='flex gap-24'>
                     {/* <div className='pt-12 flex flex-col gap-4'>
                         <h5 className='text-primary '>Quick Links</h5>
                         <div className='text-right font-manrope text-lg cursor-pointer'>

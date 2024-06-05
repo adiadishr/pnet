@@ -5,7 +5,7 @@ const LandingPortfolio = () => {
         <div className="w-full bg-neutral items-center justify-center px-[5%] flex gap-16">
             <img data-aos='fade-up' data-aos-duration='700' data-aos-delay='100' src={handshake} className='flex' alt="" />
             <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='200' className='flex flex-col w-1/2 gap-4'>
-                <h1 className="font-bold uppercase text-5xl/snug font-poppins flex flex-col leading-[1.25]">
+                <h1 className="flex flex-col leading-[1.25]">
                     <div>We bring your vision</div>
                     <div className='text-primary brightness-150'>to life.</div>
                 </h1>

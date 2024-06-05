@@ -2,3 +2,11 @@ nav {
     box-shadow: 0px -10px 50px -7px #ffffff;
     @apply fixed top-0 w-full flex h-[60px] px-[5%] items-center justify-between font-manrope text-black bg-white/85 backdrop-blur-md z-50 border-b
 }
+
+.navlink {
+    @apply text-base hover:text-primary duration-300 hover:drop-shadow-2xl hover:brightness-125
+}
+
+.navlink:hover {
+    text-shadow: 0px 0px 5px #e75a5a;
+}

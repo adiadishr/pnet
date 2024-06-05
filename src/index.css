@@ -11,3 +11,7 @@ html {
 h5 {
     @apply text-2xl font-bold font-poppins
 }
+
+h1 {
+    @apply font-bold uppercase text-5xl/snug font-poppins
+}
