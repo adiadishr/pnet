@@ -9,6 +9,7 @@ const LandingTestimonials = () => {
                 <div className='flex flex-col gap-4'>
                     <IoMdQuote className='text-4xl text-primary' />
                     <p className='font-manrope text-lg'>PNet team has been <strong>instrumental</strong> in Phil’s growth so far. Their talent pool has been exceptional and a lot of credit goes to Leapfrog’s high quality focus on training and onboarding. We never had to worry about a new engineer joining the team and becoming productive within a few weeks if not days.</p>
+                    <div ></div>
                 </div>
             </div>
         </div>

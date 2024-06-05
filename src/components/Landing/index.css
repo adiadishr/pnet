@@ -2,3 +2,7 @@
     background: url(../../assets/landingHeroBackdrop.png);
     @apply bg-center bg-cover brightness-50
 }
+
+.portfolioBtn {
+    @apply mt-4 px-16 w-max py-4 text-center hover:bg-primary hover:text-white text-primary text-lg duration-300 border border-primary cursor-pointer font-manrope
+}
