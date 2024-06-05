@@ -1,6 +1,8 @@
+import OngoingHero from "@/components/Ongoing/OngoingHero"
+
 const OngoingProjects = () => {
     return (
-        <div>OngoingProjects</div>
+        <OngoingHero />
     )
 }
 

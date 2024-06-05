@@ -1,4 +1,5 @@
-import testimonial1 from '../../assets/testimonial.png'
+import testimonial1 from '../../assets/testimonial1.png'
+import testimonial2 from '../../assets/testimonial2.png'
 import { IoMdQuote } from "react-icons/io";
 import {
     Carousel,
@@ -17,7 +18,7 @@ const LandingTestimonials = () => {
                 <CarouselContent>
                     <CarouselItem>
                         <div className='flex gap-12'>
-                            <img src={testimonial1} className='rounded-br-[4rem] size-36' alt="" />
+                            <img src={testimonial1} className='rounded-br-[4rem] size-44' alt="" />
                             <div className='flex flex-col gap-4'>
                                 <IoMdQuote className='text-5xl text-primary' />
                                 <p className='font-manrope text-lg'>PNet team has been <strong>instrumental</strong> in Phil’s growth so far. Their talent pool has been exceptional and a lot of credit goes to Leapfrog’s high quality focus on training and onboarding. We never had to worry about a new engineer joining the team and becoming productive within a few weeks if not days.</p>
@@ -30,7 +31,7 @@ const LandingTestimonials = () => {
                     </CarouselItem>
                     <CarouselItem>
                         <div className='flex gap-12'>
-                            <img src={testimonial1} className='rounded-br-[4rem] size-36' alt="" />
+                            <img src={testimonial2} className='rounded-br-[4rem] size-44' alt="" />
                             <div className='flex flex-col gap-4'>
                                 <IoMdQuote className='text-5xl text-primary' />
                                 <p className='font-manrope text-lg'>PNet team has been <strong>instrumental</strong> in Phil’s growth so far. Their talent pool has been exceptional and a lot of credit goes to Leapfrog’s high quality focus on training and onboarding. We never had to worry about a new engineer joining the team and becoming productive within a few weeks if not days.</p>
@@ -42,8 +43,8 @@ const LandingTestimonials = () => {
                         </div>
                     </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious  className='-left-24'/>
-                <CarouselNext className='-right-24' />
+                <CarouselPrevious className='-left-28 border-primary'/>
+                <CarouselNext className='-right-28 border-primary'/>
             </Carousel>
 
 
