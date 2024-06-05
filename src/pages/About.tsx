@@ -8,10 +8,10 @@ const About = () => {
     return (
         <>
             <AboutHero />
-            <LandingMissionVision />
-            <AboutOrganogram />
-            <LandingPortfolio />
             <AboutStats />
+            <LandingPortfolio />
+            {/* <LandingMissionVision /> */}
+            <AboutOrganogram />
         </>
     )
 }
