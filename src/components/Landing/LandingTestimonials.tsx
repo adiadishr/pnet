@@ -21,7 +21,7 @@ const LandingTestimonials = () => {
                             <div className='flex justify-between w-full'>
                                 <img src={testimonial1} className='rounded-br-[4rem] size-44' alt="" />
                                 <div className='relative'>
-                                    <p className='absolute mt-[11px] text-sm font-light -left-12 font-manrope'>Swipe</p>
+                                    <p className='absolute mt-[11px] text-sm font-light -left-12 font-manrope md:hidden'>Swipe</p>
                                     <IoMdQuote className='flex text-5xl md:hidden text-primary' />
                                 </div>
                             </div>
@@ -40,7 +40,7 @@ const LandingTestimonials = () => {
                             <div className='flex justify-between w-full'>
                                 <img src={testimonial2} className='rounded-br-[4rem] size-44' alt="" />
                                 <div className='relative'>
-                                    <p className='absolute mt-[11px] text-sm font-light -left-12 font-manrope'>Swipe</p>
+                                    <p className='absolute mt-[11px] text-sm font-light -left-12 font-manrope md:hidden'>Swipe</p>
                                     <IoMdQuote className='flex text-5xl md:hidden text-primary' />
                                 </div>
                             </div>
