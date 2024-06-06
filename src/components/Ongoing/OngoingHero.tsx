@@ -13,6 +13,13 @@ const OngoingHero = () => {
                     </tr>
                 </th>
             </table>
+            <div className="flex flex-col">
+                <h5>Title</h5>
+                <p>Location:</p>
+                <p>Capacity:</p>
+                <p>Client:</p>
+                <p>Year of agreement:</p>
+            </div>
         </div>
     )
 }

@@ -4,9 +4,9 @@
 }
 
 .portfolioBtn {
-    @apply mt-4 px-8 md:px-16 w-max py-4 text-center bg-primary text-white text-lg duration-300 border border-primary cursor-pointer font-manrope hover:-translate-y-[6px]
+    @apply mt-4 px-4 md:px-16 w-max py-4 text-center bg-primary text-white text-lg duration-300 border border-primary cursor-pointer font-manrope hover:-translate-y-[6px]
 }
 
 .portfolioBtnOutline {
-    @apply mt-4 px-8 md:px-16 w-max py-4 text-center text-primary text-lg duration-300 border border-primary cursor-pointer font-manrope hover:-translate-y-[6px]
+    @apply mt-4 px-4 md:px-16 w-max py-4 text-center text-primary text-lg duration-300 border border-primary cursor-pointer font-manrope hover:-translate-y-[6px]
 }

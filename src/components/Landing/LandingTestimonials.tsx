@@ -20,7 +20,10 @@ const LandingTestimonials = () => {
                         <div className='flex flex-col gap-12 md:flex-row'>
                             <div className='flex justify-between w-full'>
                                 <img src={testimonial1} className='rounded-br-[4rem] size-44' alt="" />
-                                <IoMdQuote className='flex text-5xl md:hidden text-primary' />
+                                <div className='relative'>
+                                    <p className='absolute mt-[11px] text-sm font-light -left-12 font-manrope'>Swipe</p>
+                                    <IoMdQuote className='flex text-5xl md:hidden text-primary' />
+                                </div>
                             </div>
                             <div className='flex flex-col gap-4'>
                                 <IoMdQuote className='hidden text-5xl md:flex text-primary' />
@@ -36,7 +39,10 @@ const LandingTestimonials = () => {
                         <div className='flex flex-col gap-12 md:flex-row'>
                             <div className='flex justify-between w-full'>
                                 <img src={testimonial2} className='rounded-br-[4rem] size-44' alt="" />
-                                <IoMdQuote className='flex text-5xl md:hidden text-primary' />
+                                <div className='relative'>
+                                    <p className='absolute mt-[11px] text-sm font-light -left-12 font-manrope'>Swipe</p>
+                                    <IoMdQuote className='flex text-5xl md:hidden text-primary' />
+                                </div>
                             </div>
                             <div className='flex flex-col gap-4'>
                                 <IoMdQuote className='hidden text-5xl md:flex text-primary' />
@@ -49,8 +55,8 @@ const LandingTestimonials = () => {
                         </div>
                     </CarouselItem>
                 </CarouselContent>
-                <CarouselPrevious className='-top-12 left-[18.5rem] translate-y-[0%] md:-translate-y-1/2 md:top-1/2 md:-left-28 border-primary hover:bg-primary hover:text-white ' />
-                <CarouselNext className='-top-12 right-0 translate-y-[0%] md:-translate-y-1/2 md:top-1/2 md:-right-28 border-primary hover:bg-primary hover:text-white' />
+                <CarouselPrevious className='hidden md:flex -left-28 border-primary hover:bg-primary hover:text-white ' />
+                <CarouselNext className='hidden md:flex -right-28 border-primary hover:bg-primary hover:text-white' />
             </Carousel>
 
 
