@@ -1,5 +1,5 @@
 import './index.css'
-import { services } from '../../data/data'
+import { services } from '../../data'
 
 const LandingServices = () => {
     return (

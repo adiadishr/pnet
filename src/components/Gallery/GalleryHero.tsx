@@ -1,5 +1,5 @@
 import './index.css'
-import { galleryImages } from '../../data/data'
+import { galleryImages } from '../../data'
 
 const GalleryHero = () => {
     return (
