@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 const LandingPortfolio = () => {
     return (
         <div className="w-full bg-neutral items-center justify-center px-[5%] flex md:flex-row flex-col md:gap-16 gap-12">
-            <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='100' className='flex'>
-                <img src={handshake} className='flex rotate-[-90deg] md:rotate-0' alt="" />
+            <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='100' className='flex overflow-hidden'>
+                <img src={handshake} className='flex rotate-[-90deg] md:rotate-0 md:w-auto' alt="" />
             </div>
             <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='200' className='flex flex-col gap-4 md:w-1/2'>
                 <h1 className="flex flex-col leading-[1.25]">
