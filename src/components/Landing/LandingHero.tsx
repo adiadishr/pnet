@@ -2,8 +2,8 @@ import './index.css'
 const LandingHero = () => {
     return (
         <>
-            <div className='absolute top-[60px] flex w-[75%] md:w-[47%] z-[-5] min-h-[calc(100vh-60px)] bg-black/20 backdrop-blur-md'></div>
-            <div id="landingHeroBackdrop" className="absolute top-[60px] z-[-10] flex w-full min-h-[calc(100vh-60px)]"></div>
+            <div className='absolute top-[60px] w-[75%] md:w-[47%] z-[-5] min-h-[calc(100vh-60px)] bg-black/20 backdrop-blur-md hidden md:flex'></div>
+            <div id="landingHeroBackdrop" className=""></div>
             <div className="mt-[60px] min-h-[calc(100vh-60px)] flex md:flex-row flex-col md:justify-start justify-center md:items-center px-[5%] text-white">
                 <div className="flex flex-col gap-6 md:w-1/2">
                     <h1 data-aos-delay='100' data-aos-duration='700' data-aos='fade-right' className="">

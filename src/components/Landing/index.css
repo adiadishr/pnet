@@ -1,8 +1,12 @@
 #landingHeroBackdrop {
     background: url(../../assets/landingHeroBackdrop.png);
-    @apply bg-center bg-cover brightness-50
+    @apply bg-center bg-cover brightness-[0.35] md:brightness-50 absolute top-[60px] z-[-10] flex w-full min-h-[calc(100vh-60px)]
 }
 
 .portfolioBtn {
-    @apply mt-4 px-16 w-max py-4 text-center hover:bg-primary hover:text-white text-primary text-lg duration-300 border border-primary cursor-pointer font-manrope
+    @apply mt-4 px-8 md:px-16 w-max py-4 text-center bg-primary text-white text-lg duration-300 border border-primary cursor-pointer font-manrope hover:-translate-y-[6px]
+}
+
+.portfolioBtnOutline {
+    @apply mt-4 px-8 md:px-16 w-max py-4 text-center text-primary text-lg duration-300 border border-primary cursor-pointer font-manrope hover:-translate-y-[6px]
 }

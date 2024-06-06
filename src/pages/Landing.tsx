@@ -9,10 +9,10 @@ const Landing = () => {
     return (
         <>
             <LandingHero />
-            <LandingServices />
-            <LandingMissionVision />
             <LandingTestimonials />
             <LandingPortfolio />
+            <LandingServices />
+            <LandingMissionVision />
             <LandingNewsletter />
         </>
     )

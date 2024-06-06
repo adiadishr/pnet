@@ -7,6 +7,11 @@ nav {
     @apply text-base hover:text-primary duration-300 hover:drop-shadow-2xl hover:brightness-125
 }
 
+.navlink-active {
+    text-shadow: 0px 0px 5px #e75a5a;
+    @apply text-primary
+}
+
 .navlink:hover {
     text-shadow: 0px 0px 5px #e75a5a;
 }
