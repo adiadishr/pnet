@@ -1,6 +1,8 @@
+import Completed from "@/components/Completed/Completed"
+
 const CompletedProjects = () => {
     return (
-        <div>CompletedProjects</div>
+        <Completed />
     )
 }
 
