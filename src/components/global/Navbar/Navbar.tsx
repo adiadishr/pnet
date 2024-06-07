@@ -24,7 +24,7 @@ const Navbar = () => {
                     </p>
                 </Dropdown>
             </ul>
-            <Link to='/Contact' className={`navlink flex items-center justify-center gap-2 font-bold group ${location.pathname === '/Contact' ? 'navlink-active' : ''} `}>Get in touch <BsArrowRightCircle className={`group-hover:rotate-[-45deg] transition-transform duration-300 ${location.pathname === '/Contact' ? 'rotate-[-45deg] navlink-active' : ''}`} size={20} /></Link>
+            <Link to='/Contact' onClick={toTop} className={`navlink flex items-center justify-center gap-2 font-bold group ${location.pathname === '/Contact' ? 'navlink-active' : ''} `}>Get in touch <BsArrowRightCircle className={`group-hover:rotate-[-45deg] transition-transform duration-300 ${location.pathname === '/Contact' ? 'rotate-[-45deg] navlink-active' : ''}`} size={20} /></Link>
         </nav>
     )
 }
