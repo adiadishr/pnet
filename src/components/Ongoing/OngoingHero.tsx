@@ -2,7 +2,7 @@ import { services } from '../../data'
 
 const OngoingHero = () => {
     return (
-        <div className="mt-[60px] flex py-24 flex-col px-[5%]">
+        <div className="mt-[60px] flex py-12 flex-col px-[5%]">
             <h1 className="w-full pb-12 text-center">Our <span className='text-primary'>ongoing</span> projects</h1>
             <div className='grid w-full grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16'>
                 {services.map((service) => (

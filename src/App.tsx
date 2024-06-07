@@ -8,6 +8,7 @@ import Gallery from "./pages/Gallery";
 import About from "./pages/About";
 import OngoingProjects from "./pages/OngoingProjects";
 import CompletedProjects from "./pages/CompletedProjects";
+import Contact from "./components/Contact/Contact";
 AOS.init();
 
 const App = () => {
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/Gallery" element={<Gallery />} />
           <Route path="/Ongoing" element={<OngoingProjects />} />
           <Route path="/Completed" element={<CompletedProjects />} />
+          <Route path="/Contact" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
