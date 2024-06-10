@@ -23,7 +23,7 @@ const CompletedCase = () => {
                         >
                             <h5>{caseItem.title}</h5>
                             <p className='text-lg font-manrope'>
-                                Explore a selection of our key projects, each showcasing our engineering expertise and innovative solutions.
+                                Explore a selection of our key projects, every one showcasing our engineering expertise and innovative solutions.
                                 Join us as we take you through them one by one.
                             </p>
                             <ul>
