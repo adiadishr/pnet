@@ -46,7 +46,7 @@ const AboutTeam = () => {
         <h1 className="pb-24 text-center">Meet Our Team</h1>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {teamMembers.map((member, index) => (
-            <div key={index} className="overflow-hidden bg-white rounded-lg shadow-lg">
+            <div data-aos='fade-up' data-aos-duration='700' data-aos-delay={`${index*100}`} key={index} className="overflow-hidden bg-white rounded-lg shadow-lg">
               <img className="object-cover w-full h-48" src={member.imageUrl} alt={member.name} />
               <div className="p-6">
                 <h3 className="mb-2 text-2xl font-bold">{member.name}</h3>

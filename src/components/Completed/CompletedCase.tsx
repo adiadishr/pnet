@@ -28,7 +28,7 @@ const CompletedCase = () => {
                             </p>
                             <ul>
                                 {caseItem.list.map((item, idx) => (
-                                    <li key={idx}>{item}</li>
+                                    <li className='text-lg font-manrope' key={idx}>{item}</li>
                                 ))}
                             </ul>
                         </div>
