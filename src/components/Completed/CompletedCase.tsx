@@ -1,13 +1,4 @@
 import { completedCases } from '@/data';
-import React from 'react';
-
-interface CaseProps {
-    title: string;
-    alt: string;
-    url: string;
-    list: string[];
-    delay: number;
-}
 
 const CompletedCase = () => {
     return (
