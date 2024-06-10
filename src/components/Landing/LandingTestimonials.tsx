@@ -18,14 +18,14 @@ const LandingTestimonials = () => {
                 <CarouselContent>
                     <CarouselItem>
                         <div className='flex flex-col gap-12 md:flex-row'>
-                            <div className='flex justify-between w-full'>
+                            <div data-aos='fade-up' data-aos-duration='700' className='flex justify-between w-full'>
                                 <img src={testimonial1} className='rounded-br-[4rem] size-44' alt="" />
                                 <div className='relative'>
                                     <p className='absolute mt-[11px] text-sm font-light -left-12 font-manrope md:hidden'>Swipe</p>
                                     <IoMdQuote className='flex text-5xl md:hidden text-primary' />
                                 </div>
                             </div>
-                            <div className='flex flex-col gap-4'>
+                            <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='100' className='flex flex-col gap-4'>
                                 <IoMdQuote className='hidden text-5xl md:flex text-primary' />
                                 <p className='text-lg font-manrope'>PNet team has been <strong>instrumental</strong> in Phil’s growth so far. Their talent pool has been exceptional and a lot of credit goes to Leapfrog’s high quality focus on training and onboarding. We never had to worry about a new engineer joining the team and becoming productive within a few weeks if not days.</p>
                                 <div className='flex flex-col gap-1'>
@@ -36,7 +36,7 @@ const LandingTestimonials = () => {
                         </div>
                     </CarouselItem>
                     <CarouselItem>
-                        <div className='flex flex-col gap-12 md:flex-row'>
+                        <div data-aos='fade-up' data-aos-duration='700' className='flex flex-col gap-12 md:flex-row'>
                             <div className='flex justify-between w-full'>
                                 <img src={testimonial2} className='rounded-br-[4rem] size-44' alt="" />
                                 <div className='relative'>
@@ -44,7 +44,7 @@ const LandingTestimonials = () => {
                                     <IoMdQuote className='flex text-5xl md:hidden text-primary' />
                                 </div>
                             </div>
-                            <div className='flex flex-col gap-4'>
+                            <div data-aos='fade-up' data-aos-duration='700' data-aos-delay='100' className='flex flex-col gap-4'>
                                 <IoMdQuote className='hidden text-5xl md:flex text-primary' />
                                 <p className='text-lg font-manrope'>PNet team has been <strong>instrumental</strong> in Phil’s growth so far. Their talent pool has been exceptional and a lot of credit goes to Leapfrog’s high quality focus on training and onboarding. We never had to worry about a new engineer joining the team and becoming productive within a few weeks if not days.</p>
                                 <div className='flex flex-col gap-1'>

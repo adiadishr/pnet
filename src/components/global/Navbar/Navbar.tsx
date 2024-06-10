@@ -3,7 +3,7 @@ import './index.css'
 import { BsArrowRightCircle } from "react-icons/bs";
 import { HiOutlineChevronDown } from "react-icons/hi2";
 import { Link, useLocation } from 'react-router-dom';
-import toTop from '../../../utilities/toTop';
+import {toTop} from '../../../utilities/toTop';
 import Dropdown from './Dropdown';
 
 

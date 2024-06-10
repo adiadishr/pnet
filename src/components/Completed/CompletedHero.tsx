@@ -1,3 +1,5 @@
+import { FaArrowDown } from "react-icons/fa"
+
 const CompletedHero = () => {
     return (
         <div className="mt-[30px] w-full flex px-[5%]">
@@ -10,8 +12,8 @@ const CompletedHero = () => {
                     </div>
                     <div>Join us as we take you through them one by one.</div>
                 </p>
-                <a href="#CaseStudies" className="mt-12 px-12 md:px-16 w-max py-4 text-center bg-primary text-white text-lg duration-300 border border-primary cursor-pointer font-manrope hover:-translate-y-[6px]">
-                    Explore
+                <a href="#CaseStudies" className="mt-12 px-12 md:px-16 w-max py-4 text-center bg-primary text-white text-lg duration-300 border border-primary cursor-pointer font-manrope hover:-translate-y-[6px] flex items-center gap-2">
+                    Explore <FaArrowDown />
                 </a>
             </div>
         </div>
