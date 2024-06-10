@@ -13,7 +13,7 @@ import {
 
 const LandingTestimonials = () => {
     return (
-        <div className='w-full flex px-[5%] min-h-screen items-center justify-center'>
+        <div className='w-full flex px-[5%] py-24 items-center justify-center'>
             <Carousel className='flex md:w-2/3'>
                 <CarouselContent>
                     <CarouselItem>

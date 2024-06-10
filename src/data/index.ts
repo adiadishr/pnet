@@ -6,6 +6,43 @@ import serviceCard4 from '../assets/services/4.png'
 import serviceCard5 from '../assets/services/5.png'
 import serviceCard6 from '../assets/services/6.png'
 
+//Completed Case Images
+import completedProject1 from '../assets/completed/1.png'
+import completedProject2 from '../assets/completed/2.png'
+import completedProject3 from '../assets/completed/3.png'
+import completedProject4 from '../assets/completed/4.png'
+
+export const completedCases = [
+    {
+        title: 'Topographic Survey and Mapping',
+        alt: 'Description of Service 1',
+        url: completedProject1,
+        list: ['Hydropower, Solar and Biogas', 'Survey and Mapping', 'Feasibility Study', 'Environmental Impact Study', 'Detail Design', 'Geological Study', 'Hydrological Study', 'Quantity and Cost Estimate'] as string[],
+        delay: 100,
+    },
+    {
+        title: 'Topographic Survey and Mapping',
+        alt: 'Description of Service 2',
+        url: completedProject2,
+        list: ['Hydropower, Solar and Biogas', 'Survey and Mapping', 'Feasibility Study', 'Environmental Impact Study', 'Detail Design', 'Geological Study', 'Hydrological Study', 'Quantity and Cost Estimate'] as string[],
+        delay: 200,
+    },
+    {
+        title: 'Topographic Survey and Mapping',
+        alt: 'Description of Service 2',
+        url: completedProject3,
+        list: ['Hydropower, Solar and Biogas', 'Survey and Mapping', 'Feasibility Study', 'Environmental Impact Study', 'Detail Design', 'Geological Study', 'Hydrological Study', 'Quantity and Cost Estimate'] as string[],
+        delay: 300,
+    },
+    {
+        title: 'Topographic Survey and Mapping',
+        alt: 'Description of Service 2',
+        url: completedProject4,
+        list: ['Hydropower, Solar and Biogas', 'Survey and Mapping', 'Feasibility Study', 'Environmental Impact Study', 'Detail Design', 'Geological Study', 'Hydrological Study', 'Quantity and Cost Estimate'] as string[],
+        delay: 0,
+    },
+];
+
 export const services = [
     {
         title: 'Energy Sector',

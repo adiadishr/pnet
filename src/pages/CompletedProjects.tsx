@@ -1,8 +1,12 @@
-import Completed from "@/components/Completed/Completed"
+import CompletedCase from "@/components/Completed/CompletedCase"
+import CompletedHero from "@/components/Completed/CompletedHero"
 
 const CompletedProjects = () => {
     return (
-        <Completed />
+        <>
+            <CompletedHero />
+            <CompletedCase />
+        </>
     )
 }
 
