@@ -9,10 +9,6 @@ interface CaseProps {
     delay: number;
 }
 
-interface CaseListProps {
-    cases: CaseProps[];
-}
-
 const CompletedCase = () => {
     return (
         <div className="w-full px-[5%] flex flex-col pb-24 gap-24">
